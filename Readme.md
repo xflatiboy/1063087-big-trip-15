@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
 * Студент: [Dmitry Sorokin](https://up.htmlacademy.ru/ecmascript/15/user/1063087).
-* Наставник: `Неизвестно`.
+* Наставник: [Александра_Яковина](https://up.htmlacademy.ru/ecmascript/15/user/685407).
 
 ---
 
