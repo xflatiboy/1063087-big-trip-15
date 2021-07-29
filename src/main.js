@@ -7,6 +7,8 @@ import {createFormAddElement} from './view/site-add';
 import {createFormEditTemplate} from './view/site-edit';
 import {createPointTemplate} from './view/site-point';
 
+const TASK_COUNT = 3;
+
 const render = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
 };
@@ -30,6 +32,6 @@ const siteListElement = siteMainElement.querySelector('.trip-events__list');
 
 render(siteListElement, createFormEditTemplate(), 'afterbegin');
 render(siteListElement, createFormAddElement(), 'afterbegin');
-render(siteListElement, createPointTemplate(), 'beforeend');
-render(siteListElement, createPointTemplate(), 'beforeend');
-render(siteListElement, createPointTemplate(), 'beforeend');
+for (let i = 0; i < TASK_COUNT; i++) {
+  render(siteListElement, createPointTemplate(), 'beforeend');
+}
